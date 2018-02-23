@@ -1,7 +1,9 @@
 # newsCloud
 
-to demo, 
-
+## to demo
+   requirements: 
+         Xcode, Node, Npm
+         
 clone repository
 
 within directory
