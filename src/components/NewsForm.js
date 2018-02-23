@@ -39,7 +39,7 @@ class NewsForm extends Component {
         );
     }
 
-    renderWordCard() {
+    renderCloudCard() {
         const { cloudStyle } = styles;
 
         if (this.props.showing) {
@@ -83,11 +83,13 @@ class NewsForm extends Component {
                         </Button>
                     </CardSection>
                 </Card>
-                {this.renderWordCard()}
+                {this.renderCloudCard()}
             </View>
         );
     }
 }
+
+// STYLES --------------------------------------
 
 const styles = {
     dropContainer: {
@@ -118,6 +120,8 @@ const styles = {
         color: 'red'
     }
 };
+
+// STATE ---------------------------------------
 
 const mapStateToProps = state => ({
         input: state.news.input,

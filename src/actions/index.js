@@ -19,7 +19,7 @@ export const textChanged = (text) => ({
     payload: text.toLowerCase()
 });
 
-// -------------- BUTTON actions --------------
+// --------- BUTTON and API actions -----------
 
 export const buttonPressedWithInput = (input) => {
     return (dispatch) => {

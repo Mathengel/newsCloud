@@ -10,10 +10,6 @@ import NewsForm from './components/NewsForm';
 
 class App extends Component {
 
-    componentWillMount() {
-
-    }
-
     render() {
         const store = createStore(reducers, {}, applyMiddleware(ReduxThunk));
 
@@ -27,6 +23,5 @@ class App extends Component {
         );
     }
 }
-
 
 export default App;
